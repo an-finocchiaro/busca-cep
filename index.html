@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax com JS Puro</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="formulario">
+        <div class="texto">Buscando CEP com requisição AJAX</div>
+        <div class="campos">
+            <div class="campo">
+                <label for="cep" class="label-titulos">Cep:</label>
+                <input class="input" id="input-cep" name="cep" type="text" value=""
+                placeholder="digite apenas números" maxlength="9" onblur="buscaCep();">
+            </div>
+            <div class="campo">
+                <label for="rua" class="label-titulos">Rua: </label>
+                <input class="input" id="input-rua" name="rua" type="text">
+            </div>
+            <div class="campo">
+                <label for="bairro" class="label-titulos">Bairro:</label>
+                <input class="input" id="input-bairro" name="bairro" type="text">
+            </div>
+            <div class="campo">
+                <label for="cidade" class="label-titulos">Cidade:</label>
+                <input class="input" id="input-cidade" name="cidade" type="text">
+            </div>
+            <div class="campo">
+                <label for="estado" class="label-titulos">Estado:</label>
+                <input class="input" id="input-estado" nome="estado" type="text">
+            </div>
+        </div>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
